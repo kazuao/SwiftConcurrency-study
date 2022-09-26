@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E1F72F12840926E001F8EDC /* AsyncSequenceSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F72F02840926E001F8EDC /* AsyncSequenceSample.swift */; };
+		0E1F72F3284092B4001F8EDC /* AsyncStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F72F2284092B4001F8EDC /* AsyncStream.swift */; };
+		0E1F72F52840B943001F8EDC /* AsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F72F42840B943001F8EDC /* AsyncLet.swift */; };
+		0E1F72F72840C705001F8EDC /* TaskCancel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F72F62840C705001F8EDC /* TaskCancel.swift */; };
+		0E5B9D7B282B71E900344078 /* SwiftConcurrency_StudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B9D7A282B71E900344078 /* SwiftConcurrency_StudyApp.swift */; };
+		0E5B9D7F282B71EB00344078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E5B9D7E282B71EB00344078 /* Assets.xcassets */; };
+		0E5B9D82282B71EB00344078 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E5B9D81282B71EB00344078 /* Preview Assets.xcassets */; };
+		0E5B9D8A282B776100344078 /* Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B9D89282B776100344078 /* Concurrency.swift */; };
+		0E5B9D8C282B78CE00344078 /* TaskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B9D8B282B78CE00344078 /* TaskGroup.swift */; };
+		0E5B9D8E282B7DBC00344078 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B9D8D282B7DBC00344078 /* APIClient.swift */; };
+		0E5B9D90282B83FC00344078 /* Delegate+SwiftConcurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B9D8F282B83FC00344078 /* Delegate+SwiftConcurrency.swift */; };
+		0E6B134C28B060940016ADC0 /* TaskGroupSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6B134B28B060940016ADC0 /* TaskGroupSample.swift */; };
+		0E6B134E28B06B2B0016ADC0 /* TaskCancelSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6B134D28B06B2B0016ADC0 /* TaskCancelSample.swift */; };
+		0E76FB4F28AC7F4600E4BDD4 /* AsyncStreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E76FB4E28AC7F4600E4BDD4 /* AsyncStreamView.swift */; };
+		0E76FB5128AC7F6500E4BDD4 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E76FB5028AC7F6500E4BDD4 /* LocationManager.swift */; };
+		0EA166C928B44A4C001A6D5D /* PreConcurrencySample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA166C828B44A4C001A6D5D /* PreConcurrencySample.swift */; };
+		0ED0AAF928B36DDE0046C77C /* TaskInitSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED0AAF828B36DDE0046C77C /* TaskInitSample.swift */; };
+		0ED0AAFC28B379A60046C77C /* ActorMainThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED0AAFB28B379A60046C77C /* ActorMainThread.swift */; };
+		0ED0AAFE28B37E000046C77C /* SendableSyntax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED0AAFD28B37E000046C77C /* SendableSyntax.swift */; };
+		0ED0AB0028B37EEA0046C77C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED0AAFF28B37EEA0046C77C /* ContentView.swift */; };
+		0ED5ABEC28AB163A00AE8E7D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0ED5ABEB28AB163A00AE8E7D /* README.md */; };
+		0ED7F47D284461A200346F57 /* Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7F47C284461A200346F57 /* Actor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E1F72F02840926E001F8EDC /* AsyncSequenceSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncSequenceSample.swift; sourceTree = "<group>"; };
+		0E1F72F2284092B4001F8EDC /* AsyncStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncStream.swift; sourceTree = "<group>"; };
+		0E1F72F42840B943001F8EDC /* AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLet.swift; sourceTree = "<group>"; };
+		0E1F72F62840C705001F8EDC /* TaskCancel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCancel.swift; sourceTree = "<group>"; };
+		0E5B9D77282B71E900344078 /* SwiftConcurrency-Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftConcurrency-Study.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E5B9D7A282B71E900344078 /* SwiftConcurrency_StudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrency_StudyApp.swift; sourceTree = "<group>"; };
+		0E5B9D7E282B71EB00344078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E5B9D81282B71EB00344078 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E5B9D89282B776100344078 /* Concurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concurrency.swift; sourceTree = "<group>"; };
+		0E5B9D8B282B78CE00344078 /* TaskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroup.swift; sourceTree = "<group>"; };
+		0E5B9D8D282B7DBC00344078 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		0E5B9D8F282B83FC00344078 /* Delegate+SwiftConcurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Delegate+SwiftConcurrency.swift"; sourceTree = "<group>"; };
+		0E6B134B28B060940016ADC0 /* TaskGroupSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupSample.swift; sourceTree = "<group>"; };
+		0E6B134D28B06B2B0016ADC0 /* TaskCancelSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCancelSample.swift; sourceTree = "<group>"; };
+		0E76FB4C28AC789800E4BDD4 /* AsyncSequence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AsyncSequence.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0E76FB4E28AC7F4600E4BDD4 /* AsyncStreamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncStreamView.swift; sourceTree = "<group>"; };
+		0E76FB5028AC7F6500E4BDD4 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		0EA166C828B44A4C001A6D5D /* PreConcurrencySample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreConcurrencySample.swift; sourceTree = "<group>"; };
+		0ED0AAF828B36DDE0046C77C /* TaskInitSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskInitSample.swift; sourceTree = "<group>"; };
+		0ED0AAFB28B379A60046C77C /* ActorMainThread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorMainThread.swift; sourceTree = "<group>"; };
+		0ED0AAFD28B37E000046C77C /* SendableSyntax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendableSyntax.swift; sourceTree = "<group>"; };
+		0ED0AAFF28B37EEA0046C77C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0ED5ABEB28AB163A00AE8E7D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0ED5ABEE28AB170F00AE8E7D /* AsyncAwait.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AsyncAwait.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0ED5ABEF28AB449500AE8E7D /* Actor.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Actor.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0ED7F47C284461A200346F57 /* Actor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E5B9D74282B71E900344078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E5B9D6E282B71E900344078 = {
+			isa = PBXGroup;
+			children = (
+				0ED5ABEB28AB163A00AE8E7D /* README.md */,
+				0E5B9D79282B71E900344078 /* SwiftConcurrency-Study */,
+				0E5B9D78282B71E900344078 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E5B9D78282B71E900344078 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E5B9D77282B71E900344078 /* SwiftConcurrency-Study.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E5B9D79282B71E900344078 /* SwiftConcurrency-Study */ = {
+			isa = PBXGroup;
+			children = (
+				0E5B9D7A282B71E900344078 /* SwiftConcurrency_StudyApp.swift */,
+				0ED0AAFF28B37EEA0046C77C /* ContentView.swift */,
+				0E5B9D8D282B7DBC00344078 /* APIClient.swift */,
+				0E5B9D88282B772800344078 /* hoge */,
+				0ED5ABED28AB16D900AE8E7D /* Swift Concurrency入門 */,
+				0E5B9D7E282B71EB00344078 /* Assets.xcassets */,
+				0E5B9D80282B71EB00344078 /* Preview Content */,
+			);
+			path = "SwiftConcurrency-Study";
+			sourceTree = "<group>";
+		};
+		0E5B9D80282B71EB00344078 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0E5B9D81282B71EB00344078 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0E5B9D88282B772800344078 /* hoge */ = {
+			isa = PBXGroup;
+			children = (
+				0E5B9D89282B776100344078 /* Concurrency.swift */,
+				0E1F72F62840C705001F8EDC /* TaskCancel.swift */,
+				0E5B9D8B282B78CE00344078 /* TaskGroup.swift */,
+				0ED7F47C284461A200346F57 /* Actor.swift */,
+				0E5B9D8F282B83FC00344078 /* Delegate+SwiftConcurrency.swift */,
+				0E1F72F02840926E001F8EDC /* AsyncSequenceSample.swift */,
+				0E1F72F2284092B4001F8EDC /* AsyncStream.swift */,
+				0E1F72F42840B943001F8EDC /* AsyncLet.swift */,
+			);
+			path = hoge;
+			sourceTree = "<group>";
+		};
+		0E76FB4D28AC7F3500E4BDD4 /* AsyncSequence */ = {
+			isa = PBXGroup;
+			children = (
+				0E76FB4C28AC789800E4BDD4 /* AsyncSequence.playground */,
+				0E76FB4E28AC7F4600E4BDD4 /* AsyncStreamView.swift */,
+				0E76FB5028AC7F6500E4BDD4 /* LocationManager.swift */,
+			);
+			path = AsyncSequence;
+			sourceTree = "<group>";
+		};
+		0ED0AAFA28B373E70046C77C /* Sendable */ = {
+			isa = PBXGroup;
+			children = (
+				0ED0AAFB28B379A60046C77C /* ActorMainThread.swift */,
+				0ED0AAFD28B37E000046C77C /* SendableSyntax.swift */,
+				0EA166C828B44A4C001A6D5D /* PreConcurrencySample.swift */,
+			);
+			path = Sendable;
+			sourceTree = "<group>";
+		};
+		0ED5ABED28AB16D900AE8E7D /* Swift Concurrency入門 */ = {
+			isa = PBXGroup;
+			children = (
+				0ED0AAFA28B373E70046C77C /* Sendable */,
+				0ED5FF0528AF5490009D1CB1 /* Task */,
+				0E76FB4D28AC7F3500E4BDD4 /* AsyncSequence */,
+				0ED5ABEE28AB170F00AE8E7D /* AsyncAwait.playground */,
+				0ED5ABEF28AB449500AE8E7D /* Actor.playground */,
+			);
+			path = "Swift Concurrency入門";
+			sourceTree = "<group>";
+		};
+		0ED5FF0528AF5490009D1CB1 /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				0E6B134B28B060940016ADC0 /* TaskGroupSample.swift */,
+				0E6B134D28B06B2B0016ADC0 /* TaskCancelSample.swift */,
+				0ED0AAF828B36DDE0046C77C /* TaskInitSample.swift */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E5B9D76282B71E900344078 /* SwiftConcurrency-Study */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E5B9D85282B71EB00344078 /* Build configuration list for PBXNativeTarget "SwiftConcurrency-Study" */;
+			buildPhases = (
+				0E5B9D73282B71E900344078 /* Sources */,
+				0E5B9D74282B71E900344078 /* Frameworks */,
+				0E5B9D75282B71E900344078 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftConcurrency-Study";
+			productName = "SwiftConcurrency-Study";
+			productReference = 0E5B9D77282B71E900344078 /* SwiftConcurrency-Study.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E5B9D6F282B71E900344078 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					0E5B9D76282B71E900344078 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0E5B9D72282B71E900344078 /* Build configuration list for PBXProject "SwiftConcurrency-Study" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E5B9D6E282B71E900344078;
+			productRefGroup = 0E5B9D78282B71E900344078 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E5B9D76282B71E900344078 /* SwiftConcurrency-Study */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E5B9D75282B71E900344078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED5ABEC28AB163A00AE8E7D /* README.md in Resources */,
+				0E5B9D82282B71EB00344078 /* Preview Assets.xcassets in Resources */,
+				0E5B9D7F282B71EB00344078 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E5B9D73282B71E900344078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6B134C28B060940016ADC0 /* TaskGroupSample.swift in Sources */,
+				0E1F72F12840926E001F8EDC /* AsyncSequenceSample.swift in Sources */,
+				0E76FB4F28AC7F4600E4BDD4 /* AsyncStreamView.swift in Sources */,
+				0EA166C928B44A4C001A6D5D /* PreConcurrencySample.swift in Sources */,
+				0E1F72F72840C705001F8EDC /* TaskCancel.swift in Sources */,
+				0ED0AAFC28B379A60046C77C /* ActorMainThread.swift in Sources */,
+				0E6B134E28B06B2B0016ADC0 /* TaskCancelSample.swift in Sources */,
+				0E5B9D8A282B776100344078 /* Concurrency.swift in Sources */,
+				0E5B9D8C282B78CE00344078 /* TaskGroup.swift in Sources */,
+				0ED0AAF928B36DDE0046C77C /* TaskInitSample.swift in Sources */,
+				0E5B9D8E282B7DBC00344078 /* APIClient.swift in Sources */,
+				0E5B9D90282B83FC00344078 /* Delegate+SwiftConcurrency.swift in Sources */,
+				0E1F72F52840B943001F8EDC /* AsyncLet.swift in Sources */,
+				0E1F72F3284092B4001F8EDC /* AsyncStream.swift in Sources */,
+				0ED7F47D284461A200346F57 /* Actor.swift in Sources */,
+				0ED0AB0028B37EEA0046C77C /* ContentView.swift in Sources */,
+				0E5B9D7B282B71E900344078 /* SwiftConcurrency_StudyApp.swift in Sources */,
+				0ED0AAFE28B37E000046C77C /* SendableSyntax.swift in Sources */,
+				0E76FB5128AC7F6500E4BDD4 /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0E5B9D83282B71EB00344078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E5B9D84282B71EB00344078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E5B9D86282B71EB00344078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftConcurrency-Study/Preview Content\"";
+				DEVELOPMENT_TEAM = R6YNJ9HW8W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-Xfrontend -enable-actor-data-race-checks -Xfrontend -warn-concurrency";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.k-aoki.SwiftConcurrency-Study";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E5B9D87282B71EB00344078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftConcurrency-Study/Preview Content\"";
+				DEVELOPMENT_TEAM = R6YNJ9HW8W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-Xfrontend -enable-actor-data-race-checks -Xfrontend -warn-concurrency";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.k-aoki.SwiftConcurrency-Study";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E5B9D72282B71E900344078 /* Build configuration list for PBXProject "SwiftConcurrency-Study" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E5B9D83282B71EB00344078 /* Debug */,
+				0E5B9D84282B71EB00344078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E5B9D85282B71EB00344078 /* Build configuration list for PBXNativeTarget "SwiftConcurrency-Study" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E5B9D86282B71EB00344078 /* Debug */,
+				0E5B9D87282B71EB00344078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E5B9D6F282B71E900344078 /* Project object */;
+}
